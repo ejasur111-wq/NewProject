@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(207, 205, 205);
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 75px;
+}
+
+ nav select{
+    margin-left: 50px;
+    align-items: center;
+    background: none;
+    border: none;
+    font-size: 17px;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+.nav-boshi{
+    display: flex;
+    gap: 120px;
+}
+
+.nav-ikki{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+
+
+main {
+    width: 1100px;
+    border-radius: 20px;
+    margin-left: 220px;
+    height: 250px;
+    background: rgba(16, 16, 16, 1);
+   justify-content: center;
+    margin-top: 20px;
+    position: relative;
+}
